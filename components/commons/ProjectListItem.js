@@ -20,7 +20,7 @@ export default function ProjectListItem({
             <Link href={link} passHref>
               <a
                 target="_blank"
-                className="flex items-center px-3 py-1 font-bold text-yellow-800 bg-yellow-300 rounded focus:outline-none gap-x-1"
+                className="flex items-center px-3 py-1 font-bold text-yellow-800 bg-yellow-300 rounded hover:text-yellow-300 hover:bg-yellow-800 focus:outline-none gap-x-1"
                 type="button"
               >
                 <ion-icon name="link" /> Demo
@@ -29,7 +29,7 @@ export default function ProjectListItem({
             <Link href={repository} passHref>
               <a
                 target="_blank"
-                className="flex items-center px-3 py-1 font-bold text-yellow-800 bg-yellow-300 rounded focus:outline-none gap-x-1"
+                className="flex items-center px-3 py-1 font-bold text-yellow-800 bg-yellow-300 rounded hover:text-yellow-300 hover:bg-yellow-800 focus:outline-none gap-x-1"
                 type="button"
               >
                 <ion-icon name="logo-github" /> Source

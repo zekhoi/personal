@@ -28,9 +28,12 @@ export default function Contact({ content }) {
             <div className="flex flex-row justify-around mt-8 text-xl">
               {Object.keys(socials).map((social) => (
                 <Link href={socials[social].link} passHref key={social}>
-                  <div className="text-2xl cursor-pointer">
+                  <a
+                    target="_blank"
+                    className="text-2xl cursor-pointer hover:text-yellow-400"
+                  >
                     <ion-icon name={`logo-${social}`} />
-                  </div>
+                  </a>
                 </Link>
               ))}
             </div>
