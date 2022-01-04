@@ -74,7 +74,6 @@ Completed: [✓] | Failed: [✕] | Planned: [‒]
 - CSS Framework · [Tailwindcss](https://tailwindcss.com/)
 - Package · [next-mdx-remote](https://www.npmjs.com/package/next-mdx-remote)
 - Package · [next-sitemap](https://www.npmjs.com/package/next-sitemap)
-- Package · [react-reveal](https://www.npmjs.com/package/react-reveal)
 - Package · [react-scroll](https://www.npmjs.com/package/react-scroll)
 - Package · [gray-matter](https://www.npmjs.com/package/gray-matter)
 - Frontend Free Hosting · [Vercel](https://vercel.com/)
