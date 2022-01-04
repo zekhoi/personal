@@ -1,0 +1,18 @@
+{
+  "projects": [
+    {
+      "title": "Personal Website",
+      "icon": "code-slash",
+      "repository": "https://github.com/zekhoi/personal",
+      "link": "https://zekhoi.my.id/",
+      "description": "Personal website that you see now."
+    },
+    {
+      "title": "Coronavirus",
+      "icon": "code-slash",
+      "repository": "https://github.com/zekhoi/corona",
+      "link": "https://corona.zekhoi.my.id/",
+      "description": "A website that track corona virus every country."
+    }
+  ]
+}

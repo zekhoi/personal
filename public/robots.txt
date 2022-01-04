@@ -1,0 +1,11 @@
+Host: https://zekhoi.my.id
+
+User-agent: *
+Allow: /*
+Allow: /p/*
+
+Disallow: /api/*
+Disallow: /_next/*
+Disallow: /js
+Disallow: /404
+
