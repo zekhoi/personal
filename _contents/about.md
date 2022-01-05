@@ -65,6 +65,7 @@ Completed: [✓] | Failed: [✕] | Planned: [‒]
 - Frontend Free Hosting · [Vercel](https://vercel.com/)
 - Backend Free Hosting · [Heroku](https://www.heroku.com/)
 - Backend Free Hosting · [Railway](https://railway.app/)
+- Database Free Hosting · [Supabase](https://supabase.com/)
 
 ---
 
@@ -73,6 +74,7 @@ Completed: [✓] | Failed: [✕] | Planned: [‒]
 - Frontend Framework · [Next.js](https://nextjs.org/)
 - CSS Framework · [Tailwindcss](https://tailwindcss.com/)
 - Package · [next-mdx-remote](https://www.npmjs.com/package/next-mdx-remote)
+- Package · [next-seo](https://www.npmjs.com/package/next-seo)
 - Package · [next-sitemap](https://www.npmjs.com/package/next-sitemap)
 - Package · [react-scroll](https://www.npmjs.com/package/react-scroll)
 - Package · [gray-matter](https://www.npmjs.com/package/gray-matter)
