@@ -1,13 +1,32 @@
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import { getAllPosts } from "../utils/data";
 import Layout from "../layouts/Layout";
 import { NextSeo } from "next-seo";
 import BlogListItem from "../components/item/BlogListItem";
 
 export default function Blog({ posts }) {
-  const [searchTerm, setSearchTerm] = useState("");
+  const [postList, setPostList] = useState([]);
+  const [postLength, setPostLength] = useState(0);
+  const searchContent = (data, keyword) => {
+    const found = data.filter((item) => {
+      if (keyword == "") {
+        return item;
+      } else if (
+        item.title.toLowerCase().includes(keyword.toLocaleLowerCase())
+      ) {
+        return item;
+      }
+    });
+    setPostLength(found.length);
+    setPostList(found);
+  };
 
-  // posts = false
+  useEffect(() => {
+    if (postList.length === 0) {
+      setPostList(posts);
+      setPostLength(posts.length);
+    }
+  }, [posts]);
 
   return (
     <>
@@ -21,7 +40,7 @@ export default function Blog({ posts }) {
             <h1 className="font-mono text-2xl font-bold md:text-3xl">
               Articles
               <span className="px-3 text-yellow-800 bg-yellow-300 rounded">
-                {posts ? posts.length : 0}
+                {postLength}
               </span>
               .
             </h1>
@@ -32,30 +51,19 @@ export default function Blog({ posts }) {
               name="search"
               placeholder="Search . . ."
               autoComplete="off"
-              onChange={(e) => setSearchTerm(e.target.value)}
+              onChange={(e) => searchContent(posts, e.target.value)}
             />
 
             <div>
-              {posts ? (
-                posts
+              {postList.length !== 0 ? (
+                postList
                   .sort((tpost, npost) => {
                     return tpost.date.localeCompare(npost.date);
                   })
                   .reverse()
-                  .filter((item) => {
-                    if (searchTerm == "") {
-                      return item;
-                    } else if (
-                      item.title
-                        .toLowerCase()
-                        .includes(searchTerm.toLocaleLowerCase())
-                    ) {
-                      return item;
-                    }
-                  })
                   .map((item) => <BlogListItem key={item.slug} {...item} />)
               ) : (
-                <h2 className="text-lg text-center">Will update it soon!</h2>
+                <h2 className="text-lg text-center">No post found!</h2>
               )}
             </div>
           </div>
