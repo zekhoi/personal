@@ -8,7 +8,7 @@ export default function ProjectListItem({
   description,
 }) {
   return (
-    <div className="w-full px-2 py-3 rounded md:py-4 md:px-4 hover:bg-gray-400 hover:bg-opacity-20">
+    <div className="w-full px-2 py-3 border-2 border-transparent border-dashed rounded-md active:border-yellow-300 md:py-4 md:px-4 hover:bg-gray-400 hover:bg-opacity-20">
       <div className="flex flex-row items-center gap-3 font-mono">
         <div className="text-xl">
           <ion-icon name={icon} />

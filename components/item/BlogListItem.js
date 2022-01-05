@@ -3,7 +3,7 @@ import Link from "next/link";
 
 export default function BlogListItem({ slug, title, icon, summary, date }) {
   return (
-    <div className="w-full px-2 py-3 rounded cursor-pointer md:py-4 md:px-4 hover:bg-gray-400 hover:bg-opacity-20">
+    <div className="w-full px-2 py-3 border-2 border-transparent border-dashed rounded-md cursor-pointer md:py-4 md:px-4 hover:bg-gray-400 hover:bg-opacity-20 active:border-yellow-300">
       <Link href={`/p/${slug}`} passHref>
         <a className="flex flex-row items-center gap-3 font-mono">
           <div className="text-xl">
