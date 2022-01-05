@@ -5,6 +5,12 @@ This is a [Next.js](https://nextjs.org/) blog template using [TailwindCSS](https
 First, install dependencies:
 
 ```bash
+yarn install
+```
+
+or
+
+```bash
 npm install
 ```
 
@@ -15,6 +21,12 @@ MYDOMAIN=https://yourdomain.com
 ```
 
 Second, run the development server:
+
+```bash
+yarn dev
+```
+
+or
 
 ```bash
 npm run dev
