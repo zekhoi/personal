@@ -5,8 +5,8 @@ import { NextSeo } from "next-seo";
 import BlogListItem from "../components/item/BlogListItem";
 
 export default function Blog({ posts }) {
-  const [postList, setPostList] = useState([]);
-  const [postLength, setPostLength] = useState(0);
+  const [postList, setPostList] = useState(posts);
+  const [postLength, setPostLength] = useState(posts.length);
   const searchContent = (data, keyword) => {
     const found = data.filter((item) => {
       if (keyword == "") {
@@ -22,7 +22,7 @@ export default function Blog({ posts }) {
   };
 
   useEffect(() => {
-    if (postList.length === 0) {
+    if (posts.length === 0) {
       setPostList(posts);
       setPostLength(posts.length);
     }
