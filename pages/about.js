@@ -34,7 +34,7 @@ export default function About({ about }) {
                 </h2>
               </div>
 
-              <article className="prose text-justify transition-all duration-500 md:prose-xl 2xl:prose-2xl dark:prose-dark max-w-none">
+              <article className="prose text-justify md:prose-xl 2xl:prose-2xl dark:prose-dark max-w-none">
                 <MDXRemote {...about} />
               </article>
             </div>

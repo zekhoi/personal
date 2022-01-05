@@ -21,7 +21,7 @@ export default function Contact({ content }) {
             <h1 className="font-mono text-2xl font-bold md:text-3xl">
               Contact.
             </h1>
-            <article className="prose text-justify transition-all duration-500 md:prose-xl 2xl:prose-2xl dark:prose-dark max-w-none">
+            <article className="prose text-justify md:prose-xl 2xl:prose-2xl dark:prose-dark max-w-none">
               <MDXRemote {...content} />
             </article>
 
