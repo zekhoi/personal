@@ -1,7 +1,7 @@
 import { NextSeo } from "next-seo";
 
 import Layout from "../layouts/Layout";
-import ProjectListItem from "../components/commons/ProjectListItem";
+import ProjectListItem from "../components/item/ProjectListItem";
 
 export default function Projects({ projects }) {
   // projects = false;

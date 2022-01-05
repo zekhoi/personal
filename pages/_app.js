@@ -5,7 +5,7 @@ import { useRouter } from "next/router";
 import Script from "next/script";
 import { DefaultSeo } from "next-seo";
 import SEO from "../next-seo.config";
-import Loader from "../components/elements/Loader";
+import Loader from "../components/loader/Loader";
 
 export default function MyApp({ Component, pageProps }) {
   const router = useRouter();

@@ -2,7 +2,7 @@ import { useState } from "react";
 import { getAllPosts } from "../utils/data";
 import Layout from "../layouts/Layout";
 import { NextSeo } from "next-seo";
-import BlogListItem from "../components/commons/BlogListItem";
+import BlogListItem from "../components/item/BlogListItem";
 
 export default function Blog({ posts }) {
   const [searchTerm, setSearchTerm] = useState("");
