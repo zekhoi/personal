@@ -2,7 +2,6 @@ import profile from "./profile.config";
 
 export default {
   title: profile.name,
-  titleTemplate: "%s | " + profile.name,
   description:
     "Hi, my name is Khoironi Kurnia Syah and I am a Full-Stack Developer. Do you want to hire me?",
   canonical: process.env.MYDOMAIN,

@@ -7,11 +7,7 @@ import { NextSeo } from "next-seo";
 export default function Home() {
   return (
     <>
-      <NextSeo
-        title={profile.name}
-        titleTemplate="%s"
-        description={profile.description}
-      />
+      <NextSeo title={profile.name} description={profile.description} />
       <Layout>
         <div className="flex items-center justify-center w-full min-h-screen text-gray-700 bg-white md:w-full dark:bg-dark dark:text-gray-100">
           <div className="container w-full px-4 mx-auto md:w-4/5 lg:w-3/5">

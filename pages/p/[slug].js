@@ -21,7 +21,6 @@ export default function BlogPage({
     <>
       <NextSeo
         title={title}
-        titleTemplate="%s"
         description={summary}
         canonical={process.env.MYDOMAIN + "/p/" + path}
         openGraph={{

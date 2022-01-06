@@ -12,6 +12,7 @@ export default function About({ about }) {
     <>
       <NextSeo
         title="About"
+        titleTemplate="%s | Khoironi Kurnia Syah"
         description="Want to know about me more? Check it out i have written it here, let be a friend."
       />
       <Layout>

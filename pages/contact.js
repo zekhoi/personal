@@ -1,10 +1,10 @@
 import Layout from "../layouts/Layout";
-import Link from "next/link";
 import { serialize } from "next-mdx-remote/serialize";
 import { MDXRemote } from "next-mdx-remote";
 import { getContact } from "../utils/data";
 import profile from "../profile.config";
 import { NextSeo } from "next-seo";
+import BrandIcon from "../components/icon/BrandIcon";
 
 export default function Contact({ content }) {
   const socials = profile.contact.socialMedia;
@@ -13,6 +13,7 @@ export default function Contact({ content }) {
     <>
       <NextSeo
         title="Contact"
+        titleTemplate={"%s | " + profile.name}
         description="This is my contact and social media, you can connect with me anytime you want."
       />
       <Layout>
@@ -27,14 +28,11 @@ export default function Contact({ content }) {
 
             <div className="flex flex-row justify-around mt-8 text-xl">
               {Object.keys(socials).map((social) => (
-                <Link href={socials[social].link} passHref key={social}>
-                  <a
-                    target="_blank"
-                    className="text-2xl cursor-pointer hover:text-yellow-400"
-                  >
-                    <ion-icon name={`logo-${social}`} />
-                  </a>
-                </Link>
+                <BrandIcon
+                  link={socials[social].link}
+                  brand={social}
+                  key={social}
+                />
               ))}
             </div>
           </div>
