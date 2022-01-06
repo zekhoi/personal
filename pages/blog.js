@@ -2,7 +2,8 @@ import { useEffect, useState } from "react";
 import { getAllPosts } from "../utils/data";
 import Layout from "../layouts/Layout";
 import { NextSeo } from "next-seo";
-import BlogListItem from "../components/item/BlogListItem";
+import profile from "../profile.config";
+import BlogItem from "../components/item/BlogItem";
 
 export default function Blog({ posts }) {
   const [postList, setPostList] = useState(posts);
@@ -32,6 +33,7 @@ export default function Blog({ posts }) {
     <>
       <NextSeo
         title="Blog"
+        titleTemplate={"%s | " + profile.name}
         description="All of my articles and I made at least one every month, you can read all of them. Thank You!"
       />
       <Layout>
@@ -61,7 +63,7 @@ export default function Blog({ posts }) {
                     return tpost.date.localeCompare(npost.date);
                   })
                   .reverse()
-                  .map((item) => <BlogListItem key={item.slug} {...item} />)
+                  .map((item) => <BlogItem key={item.slug} {...item} />)
               ) : (
                 <h2 className="text-lg text-center">No post found!</h2>
               )}

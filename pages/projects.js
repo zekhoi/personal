@@ -1,7 +1,7 @@
 import { NextSeo } from "next-seo";
-
+import profile from "../profile.config";
 import Layout from "../layouts/Layout";
-import ProjectListItem from "../components/item/ProjectListItem";
+import ProjectItem from "../components/item/ProjectItem";
 
 export default function Projects({ projects }) {
   // projects = false;
@@ -10,6 +10,7 @@ export default function Projects({ projects }) {
     <>
       <NextSeo
         title="Projects"
+        titleTemplate={"%s | " + profile.name}
         description="All of my projects i have made before, currently i am building a new one."
       />
       <Layout>
@@ -26,7 +27,7 @@ export default function Projects({ projects }) {
             <div className="w-full">
               {projects ? (
                 projects.map((item) => (
-                  <ProjectListItem key={item.title} {...item} />
+                  <ProjectItem key={item.title} {...item} />
                 ))
               ) : (
                 <h2 className="text-lg text-center">Will update it soon!</h2>
