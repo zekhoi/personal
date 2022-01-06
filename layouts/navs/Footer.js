@@ -36,13 +36,15 @@ export default function Footer() {
               <BrandIcon link="https://github.com/zekhoi" brand="github" />
             </div>
             <div className="text-center sm:w-2/3">
-              <a className="flex flex-row items-center justify-center mb-2 font-mono text-sm font-medium">
-                © {new Date().getFullYear()} Designed & Coded with{" "}
-                <span className="flex p-1">
-                  <ion-icon name="heart" />
-                </span>{" "}
-                by Khoironi Kurnia Syah
-              </a>
+              <div className="flex flex-row items-center justify-center mb-2 text-center ">
+                <a className="font-mono text-sm font-medium">
+                  © {new Date().getFullYear()} Designed & Coded with{" "}
+                  <span className="block m-1 md:inline">
+                    <ion-icon name="heart" />
+                  </span>{" "}
+                  by Khoironi Kurnia Syah
+                </a>
+              </div>
             </div>
           </div>
         </div>
