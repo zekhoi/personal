@@ -12,7 +12,14 @@
       "icon": "code-slash",
       "repository": "https://github.com/zekhoi/corona",
       "link": "https://corona.zekhoi.my.id/",
-      "description": "A website that track corona virus every country."
+      "description": "A website that track corona virus every country. [Under Development]"
+    },
+    {
+      "title": "Webshot",
+      "icon": "code-slash",
+      "repository": "https://github.com/zekhoi/webshot",
+      "link": "https://webshot.zekhoi.my.id/",
+      "description": "Take a screenshot from a website and put it into a Browser Mockup. [Under Development]"
     }
   ]
 }
