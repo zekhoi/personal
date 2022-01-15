@@ -2,7 +2,7 @@
 title: Aplikasi yang digunakan untuk Mendesain Database
 author: Khoironi Kurnia Syah
 icon: server
-tags: ["desain", "database", "indonesian"]
+tags: ["list", "database"]
 thumbnail: /images/thumbnails/database-coding.jpg
 summary: Menggunakan aplikasi desain database agar lebih mudah untuk membangun dan mengoptimalkan desain database.
 date: 2021-07-23

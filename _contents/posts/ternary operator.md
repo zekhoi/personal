@@ -2,7 +2,7 @@
 title: Ternary Operator
 author: Khoironi Kurnia Syah
 icon: code-slash
-tags: ["ternary", "operator", "kondisi", "indonesia"]
+tags: ["learn", "condition"]
 thumbnail: /images/thumbnails/code-for-ternary.jpg
 summary: Operator Ternary merupakan salah satu dari tiga sifat Operator yang digunakan untuk menentukan ekspresi berdasarkan suatu kondisi.
 date: 2021-08-28

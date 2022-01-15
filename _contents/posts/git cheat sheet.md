@@ -2,7 +2,7 @@
 title: Git Cheat Sheet
 author: Khoironi Kurnia Syah
 icon: git-network
-tags: ["git", "english"]
+tags: ["learn", "git"]
 thumbnail: /images/thumbnails/git-cheat-sheet.jpg
 summary: Git cheat sheet that serves as a quick reference for basic Git commands to help you learn Git.
 date: 2021-07-21
