@@ -30,7 +30,7 @@ export default function About({ about }) {
                   width={200}
                   height={200}
                 />
-                <h2 className="font-mono text-2xl font-medium">
+                <h2 className="mt-3 font-mono text-2xl font-medium">
                   {profile.name}
                 </h2>
               </div>
