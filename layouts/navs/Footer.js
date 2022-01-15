@@ -38,11 +38,8 @@ export default function Footer() {
             <div className="text-center sm:w-2/3">
               <div className="flex flex-row items-center justify-center mb-2 text-center ">
                 <a className="font-mono text-sm font-medium">
-                  © {new Date().getFullYear()} Designed & Coded with{" "}
-                  <span className="block m-1 md:inline">
-                    <ion-icon name="heart" />
-                  </span>{" "}
-                  by Khoironi Kurnia Syah
+                  © {new Date().getFullYear()} Designed & Coded by Khoironi
+                  Kurnia Syah
                 </a>
               </div>
             </div>
