@@ -24,7 +24,7 @@ export default function About({ about }) {
               </h1>
               <div className="py-3 text-center">
                 <Image
-                  className="rounded-full cursor-pointer"
+                  className="rounded-full"
                   src={profile.image}
                   alt={profile.name}
                   width={200}
