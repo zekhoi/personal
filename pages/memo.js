@@ -17,7 +17,7 @@ export default function About({ about }) {
           <div className="container w-full px-4 mx-auto md:w-4/5 lg:w-3/5">
             <div className="flex flex-col mb-6">
               <h1 className="font-mono text-2xl font-bold md:text-3xl mb-8">
-                My Memo.
+                Memo.
               </h1>
 
               <article className="prose text-justify md:prose-xl 2xl:prose-2xl dark:prose-dark max-w-none">
