@@ -17,6 +17,7 @@ Learn
 - [DevDocs](https://devdocs.io/) · `Free` Coding Documentation
 - [Udemy](https://udemy.com/) · `Free` and `Paid` Online Courses
 - [Buildwithangga](https://buildwithangga.com/) · `Free` and `Paid` Online Courses
+- [Parsinta](parsinta.com) · `Free` and `Paid` Online Courses
 
 Design Inspiration
 
@@ -34,6 +35,7 @@ Styling and Components
 
 - [TailwindKit](https://www.tailwind-kit.com/) · `Free` Tailwind Components
 - [Tailwind Elements](https://tailwind-elements.com/) · `Free` Tailwind Components
+- [Laloka Labs](https://layoutsfortailwind.lalokalabs.dev/) · `Free` Tailwind Layouts
 - [Coolors](https://coolors.co/) · `Free` Color Palette
 
 Hosting
@@ -63,3 +65,6 @@ QA / Test Automation
 Video Editor
 
 - [RunwayML](https://runwayml.com/) · `Free` Video Editor with AI
+
+More
+[Free for Dev](https://github.com/ripienaar/free-for-dev)
