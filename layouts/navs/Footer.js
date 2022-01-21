@@ -25,7 +25,7 @@ export default function Footer() {
   return (
     <div>
       <div className="min-w-full py-5 text-gray-700 bg-white dark:bg-dark dark:text-gray-100">
-        <div className="container mx-auto">
+        <div className="container mx-auto px-4">
           <div className="flex flex-col items-center border-gray-300">
             <div className="flex flex-row py-4 space-x-4">
               <BrandIcon
