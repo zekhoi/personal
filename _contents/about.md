@@ -7,14 +7,19 @@ A mathematics student who really likes technology, especially website and applic
 Completed: [✓] | Failed: [✕] | Planned: [‒]
 
 - Write at least `One Post per Month` [‒]
-- Complete the `Covid Tracker Website` [‒]
+- Complete the `Covid Tracker Website` [✓]
 - Complete the `Undergraduate Thesis` [‒]
 - Learn `DevOps` [‒]
 - Learn `Japannese` [‒]
-- Make an interesting `Indonesian Vtubers` list website [‒]
-- Make a `Web App` [‒]
+- Make an interesting `Indonesian Vtubers` list website [✕]
+- Make a `Web App` [✓]
 - Make a `Data Science / Data Analyst` project (?) [‒]
-- `Internship / Part time job` [‒]
+- `Internship / Part time job` [✓]
+
+New
+
+- Sell `Templates` in Marketplace [‒]
+- Make `SaaS` with friends [‒]
 
 ---
 
