@@ -16,7 +16,7 @@ export default function About({ about }) {
         <div className="flex w-full min-h-screen pt-20 text-gray-700 bg-white dark:bg-dark dark:text-gray-100 md:pt-28">
           <div className="container w-full px-4 mx-auto md:w-4/5 lg:w-3/5">
             <div className="flex flex-col mb-6">
-              <h1 className="font-mono text-2xl font-bold md:text-3xl">
+              <h1 className="font-mono text-2xl font-bold md:text-3xl mb-8">
                 My Memo.
               </h1>
 
