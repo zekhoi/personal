@@ -1,7 +1,7 @@
 import Layout from "../layouts/Layout";
 import { serialize } from "next-mdx-remote/serialize";
 import { MDXRemote } from "next-mdx-remote";
-import { getContact } from "../utils/data";
+import { getMarkdown } from "../utils/data";
 import profile from "../profile.config";
 import { NextSeo } from "next-seo";
 import BrandIcon from "../components/icon/BrandIcon";
@@ -43,7 +43,7 @@ export default function Contact({ content }) {
 }
 
 export async function getStaticProps() {
-  const { content } = getContact();
+  const { content } = getMarkdown("contact");
   const mdxSource = await serialize(content);
   return {
     props: {

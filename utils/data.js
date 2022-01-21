@@ -19,12 +19,7 @@ export function getAllPosts() {
   });
 }
 
-export function getAbout() {
-  const about = fs.readFileSync("_contents/about.md", "utf8");
-  return matter(about);
-}
-
-export function getContact() {
-  const contact = fs.readFileSync("_contents/contact.md", "utf8");
-  return matter(contact);
+export function getMarkdown(filename) {
+  const file = fs.readFileSync(`_contents/${filename}.md`, "utf8");
+  return matter(file);
 }
