@@ -20,6 +20,13 @@
       "repository": "https://github.com/zekhoi/webshot",
       "link": "https://webshot.zekhoi.my.id/",
       "description": "Take a screenshot from a website and put it into a Browser Mockup. [Under Development]"
+    },
+    {
+      "title": "Koroplay - Discord Bot",
+      "icon": "code-slash",
+      "repository": "https://github.com/zekhoi/discord-bot",
+      "link": "https://discord.com/api/oauth2/authorize?client_id=935198224761896980&permissions=8&scope=bot",
+      "description": "Discord Bot with many features. [Under Development]"
     }
   ]
 }
