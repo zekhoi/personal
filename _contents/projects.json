@@ -1,21 +1,21 @@
 {
   "projects": [
     {
-      "title": "Personal Website",
+      "title": "Personal Website - SPA",
       "icon": "code-slash",
       "repository": "https://github.com/zekhoi/personal",
       "link": "https://zekhoi.my.id/",
       "description": "Personal website that you see now."
     },
     {
-      "title": "Coronavirus",
+      "title": "Coronavirus - Dashboard",
       "icon": "code-slash",
       "repository": "https://github.com/zekhoi/corona",
       "link": "https://corona.zekhoi.my.id/",
       "description": "A website that track corona virus every country."
     },
     {
-      "title": "Webshot",
+      "title": "Webshot - Web Application",
       "icon": "code-slash",
       "repository": "https://github.com/zekhoi/webshot",
       "link": "https://webshot.zekhoi.my.id/",
@@ -29,11 +29,11 @@
       "description": "Discord Bot with many features."
     },
     {
-      "title": "Seminar Schedule",
+      "title": "Seminar Schedule - Event Calendar",
       "icon": "code-slash",
       "repository": "https://github.com/zekhoi/seminar-calendar",
       "link": "https://seminar.zekhoi.my.id/",
-      "description": "Seminar Schedule from Matematika FMIPA ULM"
+      "description": "Seminar Schedule Event Calendar from Matematika FMIPA ULM."
     }
   ]
 }
