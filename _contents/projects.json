@@ -12,21 +12,28 @@
       "icon": "code-slash",
       "repository": "https://github.com/zekhoi/corona",
       "link": "https://corona.zekhoi.my.id/",
-      "description": "A website that track corona virus every country. [Under Development]"
+      "description": "A website that track corona virus every country."
     },
     {
       "title": "Webshot",
       "icon": "code-slash",
       "repository": "https://github.com/zekhoi/webshot",
       "link": "https://webshot.zekhoi.my.id/",
-      "description": "Take a screenshot from a website and put it into a Browser Mockup. [Under Development]"
+      "description": "Take a screenshot from a website and put it into a Browser Mockup."
     },
     {
       "title": "Koroplay - Discord Bot",
       "icon": "code-slash",
       "repository": "https://github.com/zekhoi/discord-bot",
       "link": "https://discord.com/api/oauth2/authorize?client_id=935198224761896980&permissions=8&scope=bot",
-      "description": "Discord Bot with many features. [Under Development]"
+      "description": "Discord Bot with many features."
+    },
+    {
+      "title": "Seminar Schedule",
+      "icon": "code-slash",
+      "repository": "https://github.com/zekhoi/seminar-calendar",
+      "link": "https://seminar.zekhoi.my.id/",
+      "description": "Seminar Schedule from Matematika FMIPA ULM"
     }
   ]
 }
