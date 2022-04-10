@@ -55,11 +55,9 @@ New
 
 #### Desktop Apps.
 
-- Web Browser (Primary) · [Chrome](https://www.google.com/chrome/)
-- Web Browser (Secondary)· [Firefox](https://www.mozilla.org/en-US/firefox/new/)
-- Video Editor · [Filmora](https://filmora.wondershare.com/)
+- Web Browser · [Brave](https://brave.com/)
+- Video Recorder · [OBS Studio](https://obsproject.com/)
 - VoIP · [Discord](https://discord.com/)
-- VoIP · [Telegram](https://telegram.org/)
 
 ---
 
@@ -71,6 +69,7 @@ New
 - Backend Free Hosting · [Heroku](https://www.heroku.com/)
 - Backend Free Hosting · [Railway](https://railway.app/)
 - Database Free Hosting · [Supabase](https://supabase.com/)
+- Database Free Hosting · [NHost](https://nhost.io/)
 
 ---
 
@@ -83,6 +82,6 @@ New
 - Package · [next-sitemap](https://www.npmjs.com/package/next-sitemap)
 - Package · [react-scroll](https://www.npmjs.com/package/react-scroll)
 - Package · [gray-matter](https://www.npmjs.com/package/gray-matter)
-- Frontend Free Hosting · [Vercel](https://vercel.com/)
+- Hosting · [Vercel](https://vercel.com/)
 
 ---
