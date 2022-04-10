@@ -1,7 +1,7 @@
 export default {
   name: "Khoironi Kurnia Syah",
   image: "/images/profile/profile.png",
-  role: "Full-Stack Developer",
+  role: "Web Developer",
   country: "Indonesia",
   resumeLink: "https://resume.io/r/iuDuhDJJn",
   description:
