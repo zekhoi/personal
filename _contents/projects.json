@@ -34,6 +34,13 @@
       "repository": "https://github.com/zekhoi/seminar-calendar",
       "link": "https://seminar.zekhoi.my.id/",
       "description": "Seminar Schedule Event Calendar from Matematika FMIPA ULM."
+    },
+    {
+      "title": "Booku - Find Your Favorite Book",
+      "icon": "code-slash",
+      "repository": "https://github.com/zekhoi/fe-test-sejutacita",
+      "link": "https://booku.zekhoi.my.id/",
+      "description": "Internship test result."
     }
   ]
 }
