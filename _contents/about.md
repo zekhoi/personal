@@ -1,12 +1,12 @@
-A mathematics student who really likes technology, especially website and application. Currently studying Mathematics in Lambung Mangkurat University (7th semester). I love to code, design, and think. Fast learner, curious about something new, looking for problems to solve.
+A mathematics student who really likes technology, especially website and application. Currently studying Mathematics in Lambung Mangkurat University (8th semester). I love to code, design, and think. Fast learner, curious about something new, looking for problems to solve.
 
-### Things I have to do this year.
+### To Do.
 
 ---
 
 Completed: [✓] | Failed: [✕] | Planned: [‒]
 
-- Write at least `One Post per Month` [‒]
+- Write at least `One Post per Month` on [Medium](https://medium.com/) [‒]
 - Complete the `Covid Tracker Website` [✓]
 - Complete the `Undergraduate Thesis` [‒]
 - Learn `DevOps` [‒]
@@ -15,9 +15,6 @@ Completed: [✓] | Failed: [✕] | Planned: [‒]
 - Make a `Web App` [✓]
 - Make a `Data Science / Data Analyst` project (?) [‒]
 - `Internship / Part time job` [✓]
-
-New
-
 - Sell `Templates` in Marketplace [‒]
 - Make `SaaS` with friends [‒]
 
@@ -61,14 +58,18 @@ New
 
 ---
 
-#### Hosting.
+#### Services.
 
 - Domain · [IDCloudHost](https://idcloudhost.com/)
 - Cloud VPS · [IDCloudHost](https://console.idcloudhost.com/)
 - Frontend Free Hosting · [Vercel](https://vercel.com/)
+- Frontend Free Hosting · [Render](https://render.com/)
+- Frontend Free Hosting · [Netlify](https://www.netlify.com/)
+- Frontend Free Hosting · [Github](https://pages.github.com/)
 - Backend Free Hosting · [Heroku](https://www.heroku.com/)
 - Backend Free Hosting · [Railway](https://railway.app/)
 - Database Free Hosting · [Supabase](https://supabase.com/)
+- Database Free Hosting · [PlanetScale](https://planetscale.com/)
 - Database Free Hosting · [NHost](https://nhost.io/)
 
 ---
