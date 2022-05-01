@@ -58,22 +58,6 @@ Completed: [✓] | Failed: [✕] | Planned: [‒]
 
 ---
 
-#### Services.
-
-- Domain · [IDCloudHost](https://idcloudhost.com/)
-- Cloud VPS · [IDCloudHost](https://console.idcloudhost.com/)
-- Frontend Free Hosting · [Vercel](https://vercel.com/)
-- Frontend Free Hosting · [Render](https://render.com/)
-- Frontend Free Hosting · [Netlify](https://www.netlify.com/)
-- Frontend Free Hosting · [Github](https://pages.github.com/)
-- Backend Free Hosting · [Heroku](https://www.heroku.com/)
-- Backend Free Hosting · [Railway](https://railway.app/)
-- Database Free Hosting · [Supabase](https://supabase.com/)
-- Database Free Hosting · [PlanetScale](https://planetscale.com/)
-- Database Free Hosting · [NHost](https://nhost.io/)
-
----
-
 #### This Website.
 
 - Frontend Framework · [Next.js](https://nextjs.org/)
@@ -84,5 +68,23 @@ Completed: [✓] | Failed: [✕] | Planned: [‒]
 - Package · [react-scroll](https://www.npmjs.com/package/react-scroll)
 - Package · [gray-matter](https://www.npmjs.com/package/gray-matter)
 - Hosting · [Vercel](https://vercel.com/)
+
+---
+
+#### Services.
+
+- Domain · [IDCloudHost](https://idcloudhost.com/)
+- Cloud VPS · [IDCloudHost](https://console.idcloudhost.com/)
+- Frontend Free Hosting · [Vercel](https://vercel.com/)
+- Frontend Free Hosting · [Render](https://render.com/)
+- Frontend Free Hosting · [Netlify](https://www.netlify.com/)
+- Frontend Free Hosting · [Github](https://pages.github.com/)
+- Backend Free Hosting · [Heroku](https://www.heroku.com/)
+- Backend Free Hosting · [Coolify](https://coolify.io/)
+- Backend Free Hosting · [Fly.io](https://fly.io/)
+- Backend Free Hosting · [Railway](https://railway.app/)
+- Database Free Hosting · [Supabase](https://supabase.com/)
+- Database Free Hosting · [PlanetScale](https://planetscale.com/)
+- Database Free Hosting · [NHost](https://nhost.io/)
 
 ---
